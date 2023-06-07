@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: #999;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.cta {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.cta:hover {
+  background-color: #333;
+}
+
+/* Services Section Styles */
+.services {
+  padding: 50px;
+}
+
+.services h2 {
+  font-size: 36px;
+}
+
+.services ul li {
+  font-size: 18px;
+}
+
+/* About Section Styles */
+.about {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+.about h2 {
+  font-size: 36px;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+/* Contact Section Styles */
+.contact {
+  padding: 50px;
+}
+
+.contact h2 {
+  font-size: 36px;
+}
+
+.contact form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.contact form input, .contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact form button {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: none;
+}
+
+.contact form button:hover {
+  background-color: #333;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
